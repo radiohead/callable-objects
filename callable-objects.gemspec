@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "callable/objects/version"
+require "callable_objects/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "callable-objects"
-  spec.version       = Callable::Objects::VERSION
+  spec.version       = CallableObjects::VERSION
   spec.authors       = ["Igor Suleymanov"]
   spec.email         = ["igorsuleymanoff@gmail.com"]
 
